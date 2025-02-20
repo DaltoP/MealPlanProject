@@ -43,29 +43,5 @@ Enter your MySQL root password when prompted.
 Follow the menu options to execute queries:
 For example, select 1 to query customers who prefer the Keto diet.
 
-3. Expected Grade and Justification
-I expect to receive a grade of A (100%) for the following reasons:
 
-The database schema follows all the project guidelines with appropriate normalization.
-Data is properly populated across all tables, exceeding the 200-row requirement.
-All required queries are implemented:
-Level 1: Four read-only queries, including SELECT, JOIN, subqueries, and aggregate functions.
-Level 2: Four modification queries, including INSERT, DELETE, and queries demonstrating ON UPDATE and ON DELETE constraints.
-The Python script successfully connects to the database and executes all queries with user interaction.
-The project adheres to best practices, including modular code, comments, and user-friendly outputs.
-4. Challenges Faced
-Database Design:
-
-Normalizing data and deciding which columns to include in each table required significant effort.
-Determining the appropriate foreign key constraints, especially in junction tables.
-Populating Data:
-
-Generating realistic data that aligns with the schema required the use of Mockaroo and manual adjustments.
-Ensuring foreign key relationships were maintained during data insertion.
-Python and MySQL Integration:
-
-Encountered initial errors with the mysql-connector-python library installation.
-Debugging query errors, such as handling user input.
-
-Error Handling
 
